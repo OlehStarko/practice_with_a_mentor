@@ -185,6 +185,8 @@ body {
 .find-section-img {
 }
 
+/* Work section  */
+
 .work-section {
   display: flex;
   align-items: center;
@@ -222,10 +224,7 @@ body {
   font-size: 20px;
   line-height: 140.62%;
   margin-bottom: 35px;
-  /* or 28px */
-
   text-align: justify;
-
   color: #000000;
 }
 
@@ -247,6 +246,8 @@ body {
 .work-section-btn:active {
   background-color: var(--work-section-btn-active-color);
 }
+
+/* Gifs section  */
 
 .gifs-section {
   padding-top: 96px;
@@ -302,8 +303,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height */
-
   color: #000000;
 }
 
@@ -329,6 +328,8 @@ body {
   color: #000000;
 }
 
+/* Ready section  */
+
 .ready-section {
   display: flex;
   justify-content: center;
@@ -345,8 +346,6 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 140.62%;
-  /* identical to box height, or 45px */
-
   color: #000000;
 }
 
@@ -354,8 +353,6 @@ body {
   font-weight: 400;
   font-size: 32px;
   line-height: 140.62%;
-  /* identical to box height, or 45px */
-
   color: #000000;
 }
 
@@ -370,11 +367,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
-
   text-align: center;
   text-transform: uppercase;
-
   color: #ffffff;
   background: #231f20;
   border-radius: 5px;
@@ -387,11 +381,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
-
   text-align: center;
   text-transform: uppercase;
-
   color: #000000;
   background-color: transparent;
   border-radius: 5px;
