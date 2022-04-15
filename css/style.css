@@ -582,6 +582,10 @@ body {
   color: #000000;
 }
 
+.footer-nav-container-list-item:hover {
+  color: #f7941e;
+}
+
 .footer-nav-container-list .item {
   margin-right: 80px;
 }
@@ -624,4 +628,43 @@ body {
   text-align: center;
 
   color: #000000;
+}
+
+.fb-icon {
+  border-radius: 20px;
+}
+
+.fb-icon:hover {
+  fill: #3b5998;
+}
+.twitter-icon {
+  border-radius: 20px;
+}
+
+.twitter-icon:hover {
+  fill: #55acee;
+}
+
+.instagram-icon {
+  border-radius: 20px;
+}
+
+.instagram-icon:hover {
+  fill: url(#instagram-gradient) #212112;
+}
+
+.youtube-icon {
+  border-radius: 20px;
+}
+
+.youtube-icon:hover {
+  fill: #e21a20;
+}
+
+.pinterest-icon {
+  border-radius: 20px;
+}
+
+.pinterest-icon:hover {
+  fill: #cb2027;
 }
