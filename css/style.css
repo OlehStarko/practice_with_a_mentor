@@ -81,8 +81,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
-  height: 116px;
+  padding-left: 80px;
+  padding-right: 40px;
+  width: 100%;
   font-size: 18px;
   color: var(--navigation_bar-color);
 }
@@ -98,8 +99,8 @@ body {
 }
 
 .navigation-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 47px;
+  padding-bottom: 47px;
   margin-right: 30px;
   font-weight: 400;
   font-size: 18px;
@@ -542,13 +543,20 @@ body {
   color: #000000;
 }
 
-.blog-section-article-item-mread-more-text {
+.blog-section-article-item-read-more-text {
+  display: inline-block;
+  cursor: pointer;
   font-weight: 400;
   font-size: 14px;
   line-height: 140.62%;
   /* identical to box height, or 20px */
 
   color: #000000;
+}
+
+.blog-section-article-item-details-text {
+  display: inline-block;
+  margin-top: 16px;
 }
 
 .footer {
@@ -561,6 +569,7 @@ body {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   border-bottom: 1px solid #000;
 }
 
@@ -583,6 +592,48 @@ body {
   font-size: 14px;
   line-height: 140.62%;
   /* identical to box height, or 20px */
+
+  color: #000000;
+}
+
+.footer-nav-container-list .item {
+  margin-right: 80px;
+}
+
+.footer-nav-container-list .item:last-child {
+  margin-right: 0;
+}
+
+.footer-logo {
+  margin-left: 135px;
+  margin-right: 135px;
+  font-family: "Homemade Apple", cursive;
+  text-decoration: none;
+  color: #f7941e;
+}
+
+.footer-social-box {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.footer-social-icons {
+  margin-right: 25px;
+}
+
+.footer-privacy-text {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140.62%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
 
   color: #000000;
 }
