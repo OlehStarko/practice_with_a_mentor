@@ -21,7 +21,7 @@
     <header class="top_menu_bar">
       <nav class="navigation_bar">
         <a href="index.html" class="header-logo">logo</a>
-        <ul class="navigation-list list">
+        <ul class="navigation-list">
           <li class="navigation-item">Home</li>
           <li class="navigation-item">About Us</li>
           <li class="navigation-item">Services</li>
@@ -73,7 +73,7 @@
         <p class="gifs-section-description-text">
           “Try our web app to find the best gifts for all occasions”
         </p>
-        <ul class="gifs-section-list list">
+        <ul class="gifs-section-list">
           <li class="gifs-section-item">
             <img
               class="gifs-section-img"
@@ -166,7 +166,7 @@
           <p class="ready-section-description-text">Sign up or contact us</p>
         </div>
 
-        <ul class="ready-section-list list">
+        <ul class="ready-section-list">
           <li class="ready-section-list-item">
             <button type="button" class="ready-section-btn-primary">
               Find gift now
@@ -177,34 +177,45 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Best Blogs Ever</h2>
-        <p>
+      <section class="blog-section">
+        <h2 class="blog-section-main-text">Our Best Blogs Ever</h2>
+        <p class="blog-section-description-text">
           “Try our blog to find the best tips and tricks to select your gift”
         </p>
-        <img
-          src="./images/img_7.jpg"
-          alt="Mr. John Doe"
-          width="400"
-          height="370"
-        />
-        <h3>Mr. John Doe</h3>
-        <h4>The best way to wish your wife</h4>
-        <a href="Read More" target="_blank"></a>
-        <ul>
-          <li>
+        <div class="blog-banner-box">
+          <img
+            src="./images/img_7.jpg"
+            alt="Mr. John Doe"
+            width="400"
+            height="370"
+          />
+          <div class="blog-banner-text-box">
+            <h3 class="blog-banner-name-text">Mr. John Doe</h3>
+            <h4 class="blog-banner-description-text">
+              The best way to wish your wife
+            </h4>
+            <a
+              href="Read More"
+              target="_blank"
+              class="blog-banner-read-more-text"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <ul class="blog-section-article-box">
+          <li class="blog-section-article-item">
             <h4>Database to find the gifts for your girlfriend</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore...
             </p>
             <details>
-              <summary>Read More</summary>
+              <summary class="list">Read More</summary>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
               itaque inventore iste tempore, esse unde, aperiam.
             </details>
           </li>
-          <li>
+          <li class="blog-section-article-item">
             <h4>
               How Artificial Intelligence read your mind to find the best gift
             </h4>
@@ -213,7 +224,7 @@
               eiusmod tempor incididunt ut labore et dolore...
             </p>
             <details>
-              <summary>Read More</summary>
+              <summary class="list">Read More</summary>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
               itaque inventore iste tempore, esse unde, aperiam.
             </details>
