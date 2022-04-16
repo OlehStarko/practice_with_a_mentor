@@ -16,12 +16,12 @@
   --find-section-description-text-color: #000000;
   --find-section-btn-color: #ffffff;
   --find-section-btn_bg-color: #f7941e;
-  --find-section-btn-active-color: #e28517;
+  --find-section-btn-active-color: #000000;
   --work-section-text-content-color: #f1f1f2;
   --work-section-main-text-color: #000000;
   --work-section-description-text-color: #000000;
   --work-section-btn-color: #f7941e;
-  --work-section-btn-active-color: #ffffff;
+  --work-section-btn-active-color: #000000;
   --work-section-btn-border-color: #f7941e;
 }
 
@@ -261,6 +261,8 @@ body {
 .work-section-btn:hover,
 .work-section-btn:focus,
 .work-section-btn:active {
+  color: #ffffff;
+  border: 1px solid #000000;
   background-color: var(--work-section-btn-active-color);
 }
 
